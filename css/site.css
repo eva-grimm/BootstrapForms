@@ -1,0 +1,29 @@
+/* START: Sticky Footer CSS */
+
+/* edits html and body */
+html,
+body {
+    /* sets height of these elements to cover the full height of the screen */
+    height: 100%;
+}
+
+body {
+    /* flexes display */
+    display: flex;
+
+    /* sets flex direction from left-right to up-down */
+    flex-direction: column;
+}
+
+/* because nothing else is using flex-grow, this sets main to take up as much 
+space as possible */
+main {
+    flex-grow: 1;
+}
+
+/* makes sure the footer doesn't get shrunk when the body gets larger */
+footer {
+    flex-shrink: 0;
+}
+/* END: Sticky Footer CSS */
+
