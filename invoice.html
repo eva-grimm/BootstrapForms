@@ -56,31 +56,31 @@
 
     <main class="container-fluid">
         <!-- BEGIN header of invoice -->
-        <div class="row row-cols-2 border mt-3 mx-3">
-            <div class="col">
+        <div class="row row-cols-2 border mt-3 mx-3 align-items-center">
+            <div class="col col-12 col-sm-7">
                 <img src="/img/IdeaFoundryLogo.svg" alt="Idea Foundry">
             </div>
-            <div class="col text-end align-self-center">
-                <b>Customer:</b> 4908
+            <div class="col col-12 col-sm-5 text-end">
+                <strong>Customer:</strong> 4908
             </div>
         </div>
         <div class="row row-cols-1 row-cols-md-2 border mx-3">
             <div class="col">
-                <b>Date:</b> 05/12/2019
+                <strong>Date:</strong> 05/12/2019
             </div>
             <div class="col text-md-end">
-                <b>Invoice No:</b> 19005
+                <strong>Invoice No:</strong> 19005
             </div>
         </div>
         <div class="row row-cols-2 border mx-3">
             <address>
-                <b>Invoice To:</b><br>
+                <strong>Invoice To:</strong><br>
                 Mark Davis<br>
                 3333 Al Davis Way<br>
                 Las Vegas, NV 89118
             </address>
             <address class="text-end">
-                <b>Pay To:</b><br>
+                <strong>Pay To:</strong><br>
                 Idea Foundry, Inc.<br>
                 2705 N. Enterprise St<br>
                 Kernersville, NC 27284
@@ -88,7 +88,8 @@
         </div>
         <!-- END header of invoice -->
 
-        <div class="row row-cols-1 mx-3">
+        <!-- making table responsive allows the -->
+        <div class="row table-responsive mx-3">
             <!-- table of services rendered and payment due -->
             <table class="table table-striped table-bordered">
                 <thead class="table-dark">
@@ -138,10 +139,12 @@
                     </tr>
                 </tfoot>
             </table>
-
+        </div>
+        <div class="row row-cols-1 mx-3">
             <!-- disclaimer -->
             <div class="col">
-                <p><b>NOTE:</b> This is a computer generated receipt and does not require physical signature.</p>
+                <p><strong>NOTE:</strong> This is a computer generated receipt and does not require physical signature.
+                </p>
             </div>
 
             <!-- print page button -->
