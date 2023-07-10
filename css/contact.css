@@ -1,10 +1,10 @@
 body {
     /* sets background to the desired blue */
-    background: #363795;
+    background: #000428;
 
     /* backup, older gradient just in case */
-    background: -webkit-linear-gradient(to right, #005c97, #363795);
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
 
     /* sets background to do gradient from left to right */
-    background: linear-gradient(to right, #005c97, #363795);
+    background: linear-gradient(to right, #004e92, #000428);
 }
